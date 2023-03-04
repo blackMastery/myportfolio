@@ -41,41 +41,38 @@ body, html {
   color: rgb(72, 241, 109);
 }
 
-
+.logo {
+  width: 50px;
+  height: 50px;
+}
 .topnav {
-overflow: hidden;
-background-color: #b20cb8;
-position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1073f5;
+
+}
+#myLinks a {
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#myLinks a:hover {
+  background-color: #9f3434;
+  color: black;
 }
 
 
-.topnav #myLinks {
-display: none;
-}
 
 
-.topnav a {
-color: rgb(47, 12, 175);
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
-display: block;
-}
-
-
-.topnav a.icon {
-background: rgb(160, 2, 152);
-display: block;
-position: absolute;
-right: 0;
-top: 0;
-}
-
-
-.topnav a:hover {
+/* .topnav a:hover {
 background-color: #1ba2f0;
 color: black;
-}
+} */
 
 
 .active {
